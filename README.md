@@ -22,13 +22,19 @@ This project implements a **Contextual Chat Bot** that processes PDF documents, 
 ## Installation:
 
 1. Set up Docker Compose for Milvus:
-   docker-compose up -d
+```bash
+docker-compose up -d
+```
 
 2. Step 1: Start the Backend (FastAPI + Milvus Integration):
+```bash
 uvicorn backend.src.api:app --reload --host 0.0.0.0 --port 8000
+```
 
-3. Step 2: Start the Frontend (Streamlit)
+4. Step 2: Start the Frontend (Streamlit):
+```bash
 streamlit run frontend/streamlit.py
+```
 
 ## MLOps Pipeline Diagram:
 
