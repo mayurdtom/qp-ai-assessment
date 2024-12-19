@@ -38,7 +38,7 @@ streamlit run frontend/streamlit.py
 
 ## MLOps Pipeline Diagram:
 
-For a detailed view of the proposed MLOps pipeline, including model versioning, deployment, monitoring, and retraining, you can view the **draw.io** diagram here:
+Detailed view of the proposed MLOps pipeline, including model versioning, deployment, monitoring, and retraining, view the **draw.io** diagram here:
 
 [**MLOps Pipeline Diagram**](https://app.diagrams.net/#G1wHFtH6ztN0gsAqE3pY9Av09VwDk18gM7)
 
@@ -46,7 +46,7 @@ This diagram illustrates the end-to-end workflow, from data ingestion, model tra
 
 ## Performance Evaluation
 
-To ensure the model performs effectively in production, we use the following evaluation methods:
+To ensure the model performs effectively in production, we can use the following evaluation methods:
 
 ### 1. **Evaluation Metrics**
    - **Accuracy**: Measures the percentage of correct responses out of all predictions.
