@@ -3,7 +3,7 @@ import torch
 from huggingface_hub import login
 from config.model_config import MISTRAL_MODEL_CONFIG
 
-login(token='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')
+login(token='token')
 
 class MistralService:
     def __init__(self):
