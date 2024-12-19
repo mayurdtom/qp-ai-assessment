@@ -1,4 +1,4 @@
-# Contextual Chat Bot with Document Parsing and LLM Integration
+# Contextual Chat Bot with LLM Integration
 
 This project implements a **Contextual Chat Bot** that processes PDF documents, extracts relevant chunks, stores embeddings in a Milvus vector database, and uses a fine-tuned LLM for querying. The bot answers questions based on the uploaded documents.
 
