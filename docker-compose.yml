@@ -1,0 +1,31 @@
+services:
+  # backend:
+  #   build: 
+  #     context: ./backend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "8000:8000"
+  #   environment:
+  #     - MILVUS_HOST=milvus-standalone
+  #     - MILVUS_PORT=19530
+  #   depends_on:
+  #     - milvus-standalone
+
+  # frontend:
+  #   build: 
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "8501:8501"
+  #   depends_on:
+  #     - backend
+
+  milvus-standalone:
+    image: milvusdb/milvus:v2.3.2
+    ports:
+      - "19530:19530"
+    volumes:
+      - milvus-data:/var/lib/milvus
+
+volumes:
+  milvus-data:
