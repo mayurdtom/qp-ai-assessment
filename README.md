@@ -40,7 +40,7 @@ streamlit run frontend/streamlit.py
 
 Detailed view of the proposed MLOps pipeline, including model versioning, deployment, monitoring, and retraining, view the **draw.io** diagram here:
 
-[**MLOps Pipeline Diagram**](https://app.diagrams.net/#G1wHFtH6ztN0gsAqE3pY9Av09VwDk18gM7)
+[**MLOps Pipeline Diagram**](https://drive.google.com/file/d/1Fn0qvZQoZs24tmiXn8-U8jLZxiJrm-dV/view?usp=sharing)
 
 This diagram illustrates the end-to-end workflow, from data ingestion, model training, deployment, and monitoring to model retraining, ensuring smooth integration and management of the system in production.
 
